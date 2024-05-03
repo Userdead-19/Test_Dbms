@@ -12,7 +12,7 @@ public class Student {
     private String id;
     private String name;
     private String email;
-    @NotNull
+    @NotNull(message = "Phone number is required")
     private String phone;
 
     public String getId() {

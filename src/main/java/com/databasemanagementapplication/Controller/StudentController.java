@@ -20,11 +20,19 @@ public class StudentController {
 
     @GetMapping("/all")
     public ResponseEntity<List<Student>> getAllStudents() {
-        return ResponseEntity.ok(studentService.getAllStudents());
+        try {
+            return ResponseEntity.ok(studentService.getAllStudents());
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().build();
+        }
     }
 
     @PostMapping("/inset")
     public ResponseEntity<Student> insertAStudent(@RequestBody Student student) {
-        return ResponseEntity.ok(studentService.insertAStudent(student));
+        try {
+            return ResponseEntity.ok(studentService.insertAStudent(student));
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().build();
+        }
     }
 }
