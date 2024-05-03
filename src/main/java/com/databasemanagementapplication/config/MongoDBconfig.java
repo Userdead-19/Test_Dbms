@@ -8,7 +8,7 @@ import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 
 @Configuration
-@EnableMongoRepositories(basePackages = "com.databasemanagementapplication.repositories")
+@EnableMongoRepositories(basePackages = "com.databasemanagementapplication.Repositories")
 public class MongoDBconfig extends AbstractMongoClientConfiguration {
 
     @Override
