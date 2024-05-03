@@ -3,6 +3,8 @@ package com.databasemanagementapplication.Model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import jakarta.validation.constraints.NotNull;
+
 @Document(collection = "Student")
 public class Student {
 
@@ -10,6 +12,7 @@ public class Student {
     private String id;
     private String name;
     private String email;
+    @NotNull
     private String phone;
 
     public String getId() {
