@@ -1,3 +1,8 @@
 D:\Exploration\dbms\dbms\src\main\java\com\databasemanagementapplication\DbmsApplication.java
-D:\Exploration\dbms\dbms\src\main\java\com\databasemanagementapplication\postController.java
-D:\Exploration\dbms\dbms\src\main\java\com\databasemanagementapplication\apiController.java
+D:\Exploration\dbms\dbms\src\main\java\com\databasemanagementapplication\Controller\postController.java
+D:\Exploration\dbms\dbms\src\main\java\com\databasemanagementapplication\config\MongoDBconfig.java
+D:\Exploration\dbms\dbms\src\main\java\com\databasemanagementapplication\Repositories\StudentRepository.java
+D:\Exploration\dbms\dbms\src\main\java\com\databasemanagementapplication\Controller\apiController.java
+D:\Exploration\dbms\dbms\src\main\java\com\databasemanagementapplication\Model\Student.java
+D:\Exploration\dbms\dbms\src\main\java\com\databasemanagementapplication\Service\StudentService.java
+D:\Exploration\dbms\dbms\src\main\java\com\databasemanagementapplication\Controller\StudentController.java
