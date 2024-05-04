@@ -33,7 +33,7 @@ public class StudentController {
         }
     }
 
-    @PostMapping("/inset")
+    @PostMapping("/insert")
     public ResponseEntity<Object> insertAStudent(@Valid @RequestBody Student student,BindingResult result) {
        if(result.hasErrors()){
            List<String> errors = result.getAllErrors().stream().map(DefaultMessageSourceResolvable::getDefaultMessage).collect(Collectors.toList());

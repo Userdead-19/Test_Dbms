@@ -1,11 +1,13 @@
 com\databasemanagementapplication\config\FilterConfig.class
 com\databasemanagementapplication\Controller\MyData.class
 com\databasemanagementapplication\Controller\myNewData.class
+logback.xml
 com\databasemanagementapplication\config\MongoDBconfig.class
 com\databasemanagementapplication\DbmsApplication.class
 com\databasemanagementapplication\Model\Student.class
 com\databasemanagementapplication\Controller\StudentController.class
 com\databasemanagementapplication\config\CorsConfig.class
+application.properties
 com\databasemanagementapplication\Service\StudentService.class
 com\databasemanagementapplication\Controller\postController.class
 com\databasemanagementapplication\filters\RequestLoggingFilter.class
